@@ -1,0 +1,18 @@
+{
+  "service": {
+    "error": "網絡異常，請稍後重試或刷新頁面"
+  },
+  "page": {
+    "common": {
+      "refresh": "刷新",
+      "add": "添加",
+      "save": "保存",
+      "cancel": "取消",
+      "remove": "刪除",
+      "modify": "修改",
+      "operation": "操作",
+      "refreshSuccess": "刷新成功",
+      "batchRemove": "批量刪除"
+    }
+  }
+}

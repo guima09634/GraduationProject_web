@@ -1,0 +1,19 @@
+{
+  "service": {
+    "error": "网络异常，请稍后重试或刷新页面"
+  },
+  "page": {
+    "common": {
+      "refresh": "刷新",
+      "add": "添加",
+      "search" : "搜索",
+      "save": "保存",
+      "cancel": "取消",
+      "remove": "删除",
+      "modify": "修改",
+      "operation": "操作",
+      "refreshSuccess": "刷新成功",
+      "batchRemove": "批量删除"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "apps": [
+        {
+            "name": "mgr-center-web",
+            "max_memory_restart": "500M",
+            "script": "./server/index.js",
+            "out_file": "/home/data/mgr-center-web/mgr-center-web-out.log",
+            "error_file": "/home/data/mgr-center-web/mgr-center-web-error.log",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "env_production": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "mgr-center-web",
+  "version": "1.0.0",
+  "description": "新版管理后台",
+  "author": "sunny",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "prod": "pm2 start ecosystem.json --env production",
+    "prod-stop": "pm2 delete mgr-center-web",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.6",
+    "extend": "^3.0.2",
+    "koa": "^2.5.2",
+    "nuxt": "^2.0.0",
+    "source-map-support": "^0.5.9",
+    "vue-i18n": "^8.7.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "eslint-plugin-vue-libs": "^3.0.0",
+    "nodemon": "^1.11.0"
+  }
+}

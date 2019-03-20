@@ -1,0 +1,19 @@
+{
+  "service": {
+    "error": "Network exception, please retry or refresh the page later"
+  },
+  "page": {
+    "common": {
+      "refresh": "Refresh",
+      "add": "Add",
+      "search" : "Search",
+      "save": "Save",
+      "cancel": "Cancel",
+      "remove": "Remove",
+      "modify": "Modify",
+      "operation": "Operation",
+      "refreshSuccess": "Refresh successfully",
+      "batchRemove": "Remove Batches"
+    }
+  }
+}
